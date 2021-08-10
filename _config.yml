@@ -29,7 +29,7 @@ github_username:  rippananooru
 instagram_username: rippananooru
 
 # Build settings
-theme: jekyll-theme-minimal 
+theme: minima 
 plugins:
   - jekyll-feed
 
