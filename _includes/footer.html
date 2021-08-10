@@ -3,6 +3,7 @@
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
       {% include social-networks-links.html %}
+
       {% if page.footer-extra %}
         <div class="footer-custom-content">
           {% for file in page.footer-extra %}
@@ -10,11 +11,13 @@
           {% endfor %}
         </div>
       {% endif %}
+
       <p class="copyright text-muted">
       {% if site.author %}
         {{ site.author }}
         &nbsp;&bull;&nbsp;
       {% endif %}
+
       {{ site.time | date: '%Y' }}
 
       {% if site.url-pretty %}
@@ -24,6 +27,7 @@
         </span>
       {% endif %}
 
+      <!-- remove theme footer
       {% if site.matomo %}
         {% if site.matomo.opt-out %}
           &nbsp;&bull;&nbsp;
@@ -31,10 +35,12 @@
         {% endif %}
       {% endif%}
       </p>
-      {% unless site.remove-ads %}<p class="theme-by text-muted">
+     {% unless site.remove-ads %}<p class="theme-by text-muted">
         Powered by
         <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
       </p>{% endunless %}
+    -->
+    
       </div>
     </div>
   </div>
