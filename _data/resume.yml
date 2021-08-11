@@ -1,0 +1,72 @@
+# encoding: utf-8    
+
+basics:
+  name: MOHD NOOR (ノール)
+  age: 27
+  status: married
+  nationality: Malaysian
+  phone: 011-6961 6961
+  email: mk.mohdnoor@gmail.com 
+  linkedin: rippananooru
+
+intro:
+  intro1: I'm an analytical-minded person that make me a quiet person because I like to get to the bottom of things along with my curiosity in understanding things. I'm highly adaptable that make me resourceful and independent.
+  intro2: ini intro 2
+
+education:
+  - school: Tokyo University of technology
+    period: 2015 - 2017
+    degree: Degree
+    field: Computer Science (Major in networking)
+  - school: University Kuala Lumpur
+    period: 2012 - 2014
+    degree: Bachelor
+    field: Electric and Electronics Engineering (Hons.)
+
+skills:
+  - title:
+    subtitle:
+    subtitle:
+  - title:
+    subtitle:
+  - title:
+    subtitle:
+  - title:
+    subtitle:
+  - title:
+    subtitle:
+
+languages:
+  - title: Malay
+    level: Native
+  - title: English
+    level: Business Level
+  - title: Japanese
+    level: Business Level
+
+experiences:
+  - company name:
+    location:
+    position: 
+    period:
+    desc1:
+
+  - company name:
+    location:
+    position: 
+    period:
+    desc1:
+  
+  - company name: Emerio (Malaysia) Sdn Bhd
+    location: Cyberjaya, Selangor
+    position: Technical Helpdesk Associate (Permanent) 
+    period: April 2017 - July 2018
+    desc1: Troubleshoot research, diagnose, document, and resolve technical issues surrounding internal IT, Applications, email, other special applications, Internet connections, and hardware/peripheral equipment via telephone or remote desktop. Document, track, resolve, and report on problems and work orders using ticketing system.
+
+  - company name: Pizza Hut Malaysia
+    location: Batu Pahat, Johor
+    position: Part-time Crew
+    period: February 2012 - April 2012
+    desc1: Pizza Hut team members mostly serve customers or prepare food in kitchen. Customer Service duties include taking orders, answering questions, and ringing out customers on the cash register. Kitchen duties include preparing dough, portioning toppings, and cooking pizzas. All team members must maintain a clean work environment. Additionally, team members must follow all health and safety rules outlined by Pizza Hut. Team members should possess strong communication and problem solving skills.
+
+

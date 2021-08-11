@@ -1,0 +1,12 @@
+<ul>
+    {% for edu in site.data.resume.education %}
+    <li>
+
+        {{ edu.school }}
+
+        {{ edu.period }}
+
+        {{ edu.degree }} in {{ edu.field }}
+    </li>
+    {% endfor %}
+</ul>
