@@ -33,6 +33,7 @@ youtube_username: kumakumo414
 #theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -57,4 +58,5 @@ plugins:
 
 #branding add
 author: Mohd Noor
-title_logo: /img/title_logo.jpg
+title_logo: /assets/img/title_logo.jpg
+favicon: /assets/img/favicon.jpg
