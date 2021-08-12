@@ -1,0 +1,11 @@
+<h5 class="green">EXPERIENCE</h5>
+{% for exp in site.data.resume.experiences %}
+    <span class="title">{{ exp.companyname }}</span>
+    <span class="subtitle">, {{ exp.location }}</span>
+    <br>
+    <span class="subtitle"> {{ exp.position }} </span> 
+    <span class=" date green"> {{ exp.period }} </span>
+    <br>
+    <p class="subtitle"> {{ exp.description }}</p> 
+    <br>
+{% endfor %}

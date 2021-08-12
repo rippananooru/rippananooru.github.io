@@ -1,0 +1,6 @@
+<h5 class="green">SKILLS</h5>
+{% for skill in site.data.resume.skills %}
+<span class="title">{{ skill.title }}</span><br>
+<span class="subtitle">( {{ skill.subtitle }} )</span>
+<br><br>
+{% endfor %}

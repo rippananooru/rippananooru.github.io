@@ -2,16 +2,17 @@
 
 basics:
   name: MOHD NOOR (ノール)
-  age: 27
-  status: married
+  age: 27 y/o
+  status: Married
   nationality: Malaysian
-  phone: 011-6961 6961
+  city: Selangor, Malaysia
+  phone: +6011-6961 6961
   email: mk.mohdnoor@gmail.com 
   linkedin: rippananooru
 
 intro:
   intro1: I'm an analytical-minded person that make me a quiet person because I like to get to the bottom of things along with my curiosity in understanding things. I'm highly adaptable that make me resourceful and independent.
-  intro2: ini intro 2
+  intro2: INTJ PERSONALITY (“THE ARCHITECT”) Elon Musk has the same personality as me.
 
 education:
   - school: Tokyo University of technology
@@ -24,17 +25,24 @@ education:
     field: Electric and Electronics Engineering (Hons.)
 
 skills:
-  - title:
-    subtitle:
-    subtitle:
-  - title:
-    subtitle:
-  - title:
-    subtitle:
-  - title:
-    subtitle:
-  - title:
-    subtitle:
+  - title: Technical
+    subtitle: computer, robotic, programming, logic
+  - title: Computer Hardware / Software
+    subtitle: hardware enthusiast, overclocking, watercooling
+  - title: Computer Troubleshooting
+    subtitle: computer build, maintain, repair
+  - title: Computer Admin / Maintenance
+    subtitle: Office365 admin, domain admin
+  - title: Computer Networking
+    subtitle: CCNA training
+  - title: Computer Design
+    subtitle: 2D/3D, AutoCAD, Fusion360
+  - title: 3D Printing
+    subtitle: installation, Marling-FW, Gcode
+  - title: Programming
+    subtitle: C#, MS PowerApps, PHP, Ruby(jekyll), VBA, HTML, CSS, Liquid
+  - title: Data Base / Cloud
+    subtitle: MS Access, SharePoint, AWS, Azure, Oracle DB,SQL
 
 languages:
   - title: Malay
@@ -45,28 +53,28 @@ languages:
     level: Business Level
 
 experiences:
-  - company name:
-    location:
-    position: 
-    period:
-    desc1:
+  - companyname: KLCV Malaysia Sdn Bhd
+    location: Petaling Jaya, Selangor
+    position: Japanese Speaker Software Engineer (Permanent)
+    period: January 2020 - present
+    description: Customization and creation of new functions on an in-house build system called Creative Vision using language C#, .NET, Oracle DB.
 
-  - company name:
-    location:
-    position: 
-    period:
-    desc1:
+  - companyname: Taisei Lamick Malaysia Sdn Bhd
+    location: Kajang, Selangor
+    position: IT Executive, Project Leader (Permanent)
+    period: July 2018 - December 2019
+    description: Overall internal IT support. Handle all IT related activities to ensure IT operation run smoothly. Perform daily support/operation on installation, maintenance, troubleshooting of hardware/software, system application, PC, Servers, network infrastructure etc. Dealing and coordinating with IT vendors. Provide Training to end user. Create a few application using Microsoft’s PowerApps such as room booking, IT equipment booking, car reservation system, inventory management system and last but not least ticket system using SharePoint as the database.
   
-  - company name: Emerio (Malaysia) Sdn Bhd
+  - companyname: Emerio (Malaysia) Sdn Bhd
     location: Cyberjaya, Selangor
     position: Technical Helpdesk Associate (Permanent) 
     period: April 2017 - July 2018
-    desc1: Troubleshoot research, diagnose, document, and resolve technical issues surrounding internal IT, Applications, email, other special applications, Internet connections, and hardware/peripheral equipment via telephone or remote desktop. Document, track, resolve, and report on problems and work orders using ticketing system.
+    description: Troubleshoot research, diagnose, document, and resolve technical issues surrounding internal IT, Applications, email, other special applications, Internet connections, and hardware/peripheral equipment via telephone or remote desktop. Document, track, resolve, and report on problems and work orders using ticketing system.
 
-  - company name: Pizza Hut Malaysia
+  - companyname: Pizza Hut Malaysia
     location: Batu Pahat, Johor
     position: Part-time Crew
     period: February 2012 - April 2012
-    desc1: Pizza Hut team members mostly serve customers or prepare food in kitchen. Customer Service duties include taking orders, answering questions, and ringing out customers on the cash register. Kitchen duties include preparing dough, portioning toppings, and cooking pizzas. All team members must maintain a clean work environment. Additionally, team members must follow all health and safety rules outlined by Pizza Hut. Team members should possess strong communication and problem solving skills.
+    description: Pizza Hut team members mostly serve customers or prepare food in kitchen. Customer Service duties include taking orders, answering questions, and ringing out customers on the cash register. Kitchen duties include preparing dough, portioning toppings, and cooking pizzas. All team members must maintain a clean work environment. Additionally, team members must follow all health and safety rules outlined by Pizza Hut. Team members should possess strong communication and problem solving skills.
 
 

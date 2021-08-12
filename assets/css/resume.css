@@ -1,0 +1,72 @@
+html { font-size: 20px; }
+body { padding: 1rem; }
+    
+.tigabaris {
+    max-width: 1200px;
+    padding: 2% 2% ;
+    grid-gap: 1rem;
+    display: grid;
+    grid-template-columns: 40% 20% 40% ;
+    height: max-content;
+
+}
+.duabaris {
+    max-width: 1200px;
+    padding: 2% 2% ;
+    grid-gap: 1rem;
+    display: grid;
+    grid-template-columns: 60% 40% ;
+    height: max-content;
+
+}
+.enampuluh {
+    max-width: 720px;
+    padding: 2% 2% ;
+    grid-gap: 1rem;
+    display: grid;
+
+}
+.empatpuluh {
+    max-width: 480px;
+    padding: 2% 2% ;
+    grid-gap: 1rem;
+    display: grid;
+
+}
+.blok {
+  color: grey;
+  border-color: #2ba61e;
+  padding: 0.5rem;
+  height: auto;
+
+  /* border-width: 2px;
+  border-style: solid; */
+}
+
+.green {
+    color: #2ba61e;
+}
+
+/* TEXT SIZE */
+.date{
+    font-size: small;
+}
+.title{
+    font-size: large;
+    font-weight: bold;
+}
+.subtitle{
+    font-size: medium;
+}
+/* IMG */
+.me{
+    border-radius: 50%;
+    border-width: 3px;
+    border-color: #2ba61e;
+    border-style: solid;
+    width: 100%;
+}
+.center{
+    text-align: center;
+    vertical-align: middle;
+}

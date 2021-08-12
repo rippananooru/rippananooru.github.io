@@ -1,0 +1,9 @@
+<h5 class="green">LANGUAGES</h5>
+{% for lang in site.data.resume.languages %}
+<li>
+    <span class="title">{{ lang.title }}</span>
+    <span>-</span>
+    <span class="subtitle green">{{ lang.level }}</span>
+    <br>
+</li>
+{% endfor %}

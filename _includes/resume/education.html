@@ -1,12 +1,7 @@
-<ul>
-    {% for edu in site.data.resume.education %}
-    <li>
-
-        {{ edu.school }}
-
-        {{ edu.period }}
-
-        {{ edu.degree }} in {{ edu.field }}
-    </li>
-    {% endfor %}
-</ul>
+<h5 class="green">EDUCATION</h5>
+{% for edu in site.data.resume.education %}
+    <span class="title">{{ edu.school }}</span>
+    <span class="date green">{{ edu.period }}</span><br>
+    <span class="subtitle"> {{ edu.degree }} in {{ edu.field }} </span> 
+    <br><br>
+{% endfor %}

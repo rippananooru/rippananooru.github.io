@@ -21,13 +21,14 @@
 title: nooru.me
 #email: email@nooru.me
 description: >- # this means to ignore newlines until "baseurl:"
-  Hi welcome to my site. 
+  Hi welcome to my site. Created using jekyll run on github pages.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nooru.me" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rippananooru
 facebook_username: rippananooru
 instagram_username: rippananooru
 youtube_username: kumakumo414
+linkedin_username: rippananooru
 
 # Build settings
 #theme: minima

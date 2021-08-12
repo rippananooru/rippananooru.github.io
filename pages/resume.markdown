@@ -1,9 +1,9 @@
 ---
 permalink: /resume/
-layout: none
-#title: Resume
+layout: resume
 ---
 
+***
 
 
 {% include resume/basics.html %}
