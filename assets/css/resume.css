@@ -1,5 +1,5 @@
 html { font-size: 20px; }
-body { padding: 1rem; }
+body { padding: 1rem; background-color: white;}
     
 .tigabaris {
     max-width: 1200px;
@@ -69,4 +69,16 @@ body { padding: 1rem; }
 .center{
     text-align: center;
     vertical-align: middle;
+}
+
+@page {
+    size: A4;
+    margin: 0;
+  }
+
+@media print {
+    html, body {
+        width: 210mm;
+        height: 297mm;
+    }
 }
