@@ -292,6 +292,8 @@ DEPENDENCIES
   github-pages
   jekyll-compress-images
   jekyll-feed (~> 0.12)
+  jekyll-seo-tag
+  jekyll-sitemap
   kramdown
   tzinfo (~> 1.2)
   tzinfo-data
