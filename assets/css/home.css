@@ -1,33 +1,33 @@
-html { font-size: 20px; }
-body { 
-    padding: 1rem; 
-    background-color:#121212;
-    width: 400px;
-}
-    
-.single {
-    max-width: 400px;
-    grid-gap: 1rem;
-    display: grid;
-    grid-template-columns: 50%;
 
-    background-color: khaki;
-
-}
-.blok {
-    color: grey;
+.butang {
     border-color: #2ba61e;
-    padding: 0.5rem;
-    height: auto;
+    padding: 1rem;
+    height: 1rem;
+    position: relative;
+    /* border-radius: 100%; */
 
     border-width: 2px;
     border-style: solid;
 }
-
+.clickable {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;     
+    z-index: 1;
+}
+a.button {
+    text-decoration: none;
+    color: #2ba61e;
+}
+/* COLOR */
 .green {
     color: #2ba61e;
 }
-
+.white{
+    color: white4;
+}
 /* TEXT SIZE */
 .date{
     font-size: small;
@@ -48,18 +48,8 @@ body {
     width: 20%;
 }
 .center{
+    margin-top: 50px;
+    margin-bottom: 50px;
     text-align: center;
     vertical-align: middle;
-}
-
-@page {
-    size: A4;
-    margin: 0;
-  }
-
-@media print {
-    html, body {
-        width: 210mm;
-        height: 297mm;
-    }
 }
