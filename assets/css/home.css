@@ -1,0 +1,65 @@
+html { font-size: 20px; }
+body { 
+    padding: 1rem; 
+    background-color:#121212;
+    width: 400px;
+}
+    
+.single {
+    max-width: 400px;
+    grid-gap: 1rem;
+    display: grid;
+    grid-template-columns: 50%;
+
+    background-color: khaki;
+
+}
+.blok {
+    color: grey;
+    border-color: #2ba61e;
+    padding: 0.5rem;
+    height: auto;
+
+    border-width: 2px;
+    border-style: solid;
+}
+
+.green {
+    color: #2ba61e;
+}
+
+/* TEXT SIZE */
+.date{
+    font-size: small;
+}
+.title{
+    font-size: large;
+    font-weight: bold;
+}
+.subtitle{
+    font-size: medium;
+}
+/* IMG */
+.me{
+    border-radius: 50%;
+    border-width: 3px;
+    border-color: #2ba61e;
+    border-style: solid;
+    width: 20%;
+}
+.center{
+    text-align: center;
+    vertical-align: middle;
+}
+
+@page {
+    size: A4;
+    margin: 0;
+  }
+
+@media print {
+    html, body {
+        width: 210mm;
+        height: 297mm;
+    }
+}
