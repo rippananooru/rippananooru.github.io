@@ -1,12 +1,69 @@
 <!DOCTYPE html>
-
+{%- include head.html -%}
 <link rel="stylesheet" href="/assets/css/home.css"> 
-<div class="center">
-    
-    <div class="blok"> 
-        <img class="me" src="/assets/img/title_logo.jpg" alt="logo">
+
+<body>
+    <main class="page-content" aria-label="Content">
+
+        <div class="wrapper">
+          
+          {{ content }}
+  
+        </div> 
+        
+      </main>
+    <div class="center">
+        <div class=""> 
+            <img class="me" src="/assets/img/title_logo.jpg" alt="logo">
+        </div>
+        <br>
+        <div class="title ">
+            <h3>Hi Welcome to nooru.me</h3>
+        </div>
+        <br>
+        <div class="butang">
+            <a href="http://bit.ly/rn-YT-sub" target="blank" class="button">
+                <span class="clickable"></span>
+                My latest Youtube upload
+                </a>
+        </div>
+        <br>
+        <div class="butang">
+            <a href="https://bit.ly/37IRgHR" target="blank" class="button">
+                <span class="clickable"></span>
+                マレーシアと猫の日常ブログ
+            </a>
+        </div>
+        <br>
+        <div class="title ">
+            <h3>Here's what I'm selling</h3>
+        </div>
+        <br>
+        <div class="butang">
+            <a href="http://bit.ly/jejemput" target="blank" class="button">
+                <span class="clickable"></span>
+                Online Wedding invitation card
+            </a>
+        </div>
+        <br>
+        <div class="butang">
+            <a href="http://bit.ly/rnMarket" target="blank" class="button">
+                <span class="clickable"></span>
+                My preloved items - FB Marketplace
+            </a>
+        </div>
+        <br>
+        <div class="title ">
+            <h3>Sharing job offer</h3>
+        </div>
+        <br>
+        <div class="butang">
+            <a href="http://bit.ly/kerjaNihongo" target="blank" class="button">
+                <span class="clickable"></span>
+                Job for Nihongo speaker (MY) - twitter
+            </a>
+        </div>
     </div>
-    <div class="blok">
-        <button href="https://google.com" target="blank">My latest Youtube upload</button>
-    </div>
-</div>
+</body>
+
+{%- include footer.html -%}
