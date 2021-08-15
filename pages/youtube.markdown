@@ -1,5 +1,5 @@
 ---
-permalink: /yt
+permalink: /yt/
 layout: loading
 ---
 If you are not redirected click [here](http://bit.ly/rn-YT-sub).
