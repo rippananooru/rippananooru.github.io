@@ -4,7 +4,7 @@ title: About
 permalink: /about
 ---
 
-Hi there welcome to nooru.me 
+Hi there welcome to {{ site.title }}
 
 Here's is my static page created using jekyll (Ruby) hosted on [Github-Pages].
 
