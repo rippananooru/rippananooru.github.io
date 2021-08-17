@@ -63,3 +63,11 @@ plugins:
 author: Mohd Noor
 title_logo: /assets/img/title_logo.jpg
 favicon: /assets/img/favicon.jpg
+
+# menu order
+header_pages:
+#  - index.markdown
+ - pages/blog-tech.markdown
+ - pages/blog-motor.markdown
+ - pages/blog-finance.markdown
+ - pages/about.markdown

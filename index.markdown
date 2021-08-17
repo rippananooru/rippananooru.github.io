@@ -1,7 +1,7 @@
 ---
 layout: home
 permalink: /
-title: Welcome
+title: ノール.me
 ---
 
 ### If you looking for latest youtube upload
