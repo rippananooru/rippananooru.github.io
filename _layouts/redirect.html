@@ -1,0 +1,35 @@
+{% capture redirect %} 
+<meta http-equiv="refresh" content="2; URL= {{ page.redirect }}"/>
+{% endcapture %}
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {%- include head.html -%}
+  <meta http-equiv="refresh" content="2; URL= {{ page.redirect }}"/>
+  <style>
+    body, html {
+      height: 100%;
+      vertical-align: middle;
+      background-color:#030202;
+    }
+    .bg {
+      background-image: url('/assets/img/green_portal.gif');
+      height: 80%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+    .content {
+      font-size: x-large;
+      text-align: center;
+    }
+  </style>
+  <body>
+    <main class="page-content" aria-label="Content">
+      <div class="bg"></div> 
+      <div class="content">
+        <a href=" {{ page.redirect }} ">Click here if you are not redirected.</a><br>
+        {{ content }}
+      </div>
+    </main>
+  </body>
+</html>
