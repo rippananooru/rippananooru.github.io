@@ -62,7 +62,7 @@ plugins:
 #branding add
 author: Mohd Noor
 title_logo: /assets/img/title_logo.jpg
-favicon: /assets/img/favicon.jpg
+favicon: /assets/img/favicon.ico
 
 # menu order
 header_pages:
