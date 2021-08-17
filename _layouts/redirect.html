@@ -1,7 +1,12 @@
+{% capture redirect %} 
+<meta http-equiv="refresh" content="2; URL= {{ page.redirect }}"/>
+{% endcapture %}
+
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
   {%- include head.html -%}
+  {{ redirect }}
   <style>
     body, html {
       height: 100%;
@@ -27,7 +32,11 @@
     <main class="page-content" aria-label="Content">
 
       <div class="bg"></div> 
-      <div class="content">{{ content }}</div>
+      
+      <div class="content">
+        <a href=" {{ page.redirect }} ">Click here if you are not redirected.</a><br>
+        {{ content }}
+      </div>
       
     </main>
 
