@@ -65,9 +65,7 @@ title_logo: /assets/img/title_logo.jpg
 favicon: /assets/img/favicon.ico
 
 # menu order
-header_pages:
+#header_pages:
 #  - index.markdown
- - pages/blog-tech.markdown
- - pages/blog-motor.markdown
- - pages/blog-finance.markdown
- - pages/about.markdown
+ #- pages/blog.markdown
+ #- pages/about.markdown
