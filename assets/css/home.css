@@ -1,55 +1,147 @@
-
-.butang {
-    border-color: #2ba61e;
-    padding: 1rem;
-    height: 1rem;
-    position: relative;
-    /* border-radius: 100%; */
-
-    border-width: 2px;
-    border-style: solid;
-}
-.clickable {
-    height: 100%;
-    width: 100%;
-    left: 0;
-    top: 0;
-    position: absolute;     
-    z-index: 1;
-}
-a.button {
-    text-decoration: none;
-    color: #2ba61e;
-}
-/* COLOR */
-.green {
-    color: #2ba61e;
-}
-.white{
-    color: white4;
-}
-/* TEXT SIZE */
-.date{
-    font-size: small;
-}
-.title{
-    font-size: large;
-    font-weight: bold;
-}
-.subtitle{
-    font-size: medium;
-}
-/* IMG */
-.me{
-    border-radius: 50%;
-    border-width: 3px;
-    border-color: #2ba61e;
-    border-style: solid;
-    width: 20%;
-}
-.center{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: center;
-    vertical-align: middle;
-}
+body{ background: #000; margin:0; padding: 0; }
+   #nooru * {
+      box-sizing: border-box;
+   }
+   #nooru {
+      background-size: cover;
+      background-position: center;
+      color: a1a1a1;
+      font-family: "Open Sans", sans-serif;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+   #nooru .nooruContainer {
+      background: rgba(0, 0, 0, 0.55);
+      width: 90vw;
+      max-width: 768px;
+      height: 80vh;
+      margin-top: 50px;
+      position: relative;
+      border: 10px solid #a1a1a1;
+      border-radius: 25px;
+   }
+   #nooru .nooruContainer .nooruWrapper {
+      background: #000;
+      width: 200px;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      border-radius: 50%;
+      box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.8);
+      border: 10px solid #a1a1a1;
+   }
+   #nooru .nooruContainer .nooruWrapper img {
+      width: 90%;
+      height: auto;
+      margin-top: 10px;
+      margin-left: 0px;
+   }
+   #nooru .nooruContainer .nooruContent {
+      height: calc(100% - 210px);
+      padding: 0 20px;
+      position: relative;
+      margin-top: 120px;
+      overflow: hidden;
+   }
+   .customScrollbar{
+      background: #1cf504;
+      width: 10px;
+      position: absolute;
+      top: 0;
+      right: 5px;
+      border-radius: 8px;
+      overflow: auto;
+      z-index: 2;
+   }
+   #nooru .nooruContainer .scrollableContent {
+      width: calc(100% - 40px);
+      height: 100%;
+      overflow-y: scroll;
+      position: absolute;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+   }
+   #nooru .nooruContainer .scrollableContent::-webkit-scrollbar {
+      display: none;
+   }
+   .nooruContent .nooruBlockContainer {
+      margin-bottom: 40px;
+      padding-bottom: 50px;
+      border-bottom: 5px solid #333;
+   }
+   .nooruContent .nooruBlockContainer:last-child {
+      margin-bottom: 0;
+      padding-bottom: 0;
+      border-bottom: none;
+   }
+   .nooruContent .nooruBlockContainer .nooruBlockHeader {
+      display: flex;
+      align-items: center;
+      margin: 0 0 2px 0;
+   }
+   .nooruContent .nooruBlockContainer .nooruBlockHeader i {
+      color: #1cf504;
+      font-size: 2.5rem;
+      margin: 0 10px 0 0;
+   }
+   .nooruContent .nooruBlockContainer .nooruBlockHeader h1 {
+      margin: 0;
+   }
+   .nooruContent .nooruBlockContainer .nooruBlockHeader h2 {
+      margin: 0;
+      margin-top: 25px;
+   }
+   .nooruContent .nooruBlockContainer p {
+      font-size: 1.125rem;
+      margin: 0;
+   }
+   .nooruContent .nooruBlockContainer a {
+      background: #1cf504;
+      color: #000;
+      font-size: 1.125rem;
+      line-height: 2;
+      text-decoration: none;
+      font-weight: 800;
+      font-style: italic;
+      display: inline-block;
+      border-radius: 30px;
+      padding: 0 20px;
+      margin: 20px 0 0 0;
+      transition: all 350ms ease-in-out;
+   }
+   .nooruContent .nooruBlockContainer a:hover {
+     background: #000;
+     color: #1cf504;
+   }
+   @media only screen and (max-width : 375px) {
+      #nooru {
+         min-height: 90vh;
+      }
+    .nooruContainer {
+         height: 75vh;
+         max-width: unset;
+         margin-top: 65px;
+      }
+    .nooruContainer .nooruWrapper {
+         width: 100px;
+         height: 100px;
+      }
+    .nooruContainer .nooruWrapper img {
+         /* height: auto; */
+         /* margin-top: 10px; */
+         /* margin-left: -10px; */
+         background-color: #000;
+         object-fit: cover;
+      }
+    .nooruContainer .nooruContent {
+         height: calc(100% - 100px);
+         margin-top: 90px;
+      }
+   }

@@ -1,8 +1,9 @@
 ---
-layout: home
+layout: new-home
 permalink: /
 title: ノール.me
 ---
+# check /_layout/new-home.html for content edit
 
 ### If you looking for latest youtube upload
 >[My youtube channel](http://bit.ly/rn-YT-sub)
@@ -24,3 +25,4 @@ title: ノール.me
 
 ### My preloved items
 >[Facebook Marketplace](http://bit.ly/rnMarket)
+
