@@ -1,22 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        {%- seo -%}
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" href="/assets/css/home.css">
-        {% if site.favicon %}
-        <link rel="shortcut icon" href="{{ site.favicon | relative_url }}">
-        {%- endif -%}
-        {%- feed_meta -%}
-        {%- if jekyll.environment == 'production' and site.google_analytics -%}
-            {%- include google-analytics.html -%}
-        {%- endif -%}
-
-    </head>
-
+    
+    {%- include head.html -%}
+    <!-- new home css -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/home.css">
     <body>
         <main id="nooru" role="main" style="background-image: url() ">
             <div class="nooruContainer">
