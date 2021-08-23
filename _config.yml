@@ -64,6 +64,9 @@ author: Mohd Noor
 title_logo: /assets/img/title_logo.jpg
 favicon: /assets/img/favicon.ico
 
+# Google Analytics
+google_analytics: G-L1XM4D0M1E
+
 # menu order
 #header_pages:
 #  - index.markdown
