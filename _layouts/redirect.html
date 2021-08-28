@@ -8,6 +8,24 @@
       vertical-align: middle;
       background-color:#030202;
     }
+    .loading {
+      max-width: 100%;
+      max-height: 100%;
+      bottom: 0;
+      left: 0;
+      margin: auto;
+      overflow: auto;
+      position: fixed;
+      right: 0;
+      top: 0;
+      -o-object-fit: contain;
+      object-fit: contain;
+    }
+    .content {
+      font-size: x-large;
+      text-align: center;
+    }
+    /* not in use */
     .bg {
       background-image: url('/assets/img/green_portal.gif');
       height: 80%;
@@ -15,14 +33,10 @@
       background-repeat: no-repeat;
       background-size: contain;
     }
-    .content {
-      font-size: x-large;
-      text-align: center;
-    }
   </style>
   <body>
     <main class="page-content" aria-label="Content">
-      <div class="bg"></div> 
+      <img class="loading" src="/assets/img/green_portal.gif"></img> 
       <div class="content">
         <a href=" {{ page.redirect }} ">Click here if you are not redirected.</a><br>
         {{ content }}
