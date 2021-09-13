@@ -18,4 +18,4 @@ Here's my online version of [resume] if you interested to hire me.
 
 [Github-Pages]:https://pages.github.com/
 
-[resume]: https://resume.nooru.me
+[resume]: /resume
