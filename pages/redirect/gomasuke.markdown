@@ -1,5 +1,5 @@
 ---
 permalink: /gomasuke/
-layout: redirect
+layout: page
 redirect: 'https://bit.ly/gomasuke'
 ---

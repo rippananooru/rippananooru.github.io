@@ -1,5 +1,5 @@
 ---
 permalink: /jejemput/
-layout: redirect
-redirect: 'https://bit.ly/jejemput'
+layout: page
+redirect: https://bit.ly/jejemput
 ---

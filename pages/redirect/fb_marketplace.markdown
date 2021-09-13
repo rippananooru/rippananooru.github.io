@@ -1,5 +1,5 @@
 ---
 permalink: /fb-mp/
-layout: redirect
-redirect: 'https://bit.ly/rnMarket'
+layout: page
+redirect: https://bit.ly/rnMarket
 ---

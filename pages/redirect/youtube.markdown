@@ -1,5 +1,5 @@
 ---
 permalink: /yt/
-layout: redirect
+layout: page
 redirect: http://bit.ly/rn-YT-sub
 ---
