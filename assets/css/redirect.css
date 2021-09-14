@@ -1,6 +1,6 @@
 /* for redirect bg image */
 /* use nooru id in main */
-.nooru {
+#nooru {
     background-image: url('/assets/img/green_portal.gif');
     background-repeat: no-repeat;
 }
