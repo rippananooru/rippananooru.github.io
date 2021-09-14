@@ -1,24 +1,29 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-<link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
-  {%- include head.html -%}
+<!-- new home css -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="/assets/css/home.css">
+    {%- include head.html -%}
+    <body>
+        <main id="nooru" class="bg" role="main">
+            <div class="nooruContainer">
+                <div class="nooruWrapper">
+                    <img src="/assets/img/nooru_logo.png" alt="mylogo">
+                </div>
+                
+                <div class="nooruContent">
+                    <div class="customScrollbar"></div>
+                    <div class="scrollableContent">
+                        {{ content }}
+                    </div>
+                </div>
 
-  <body>
+            </div>
+        </main>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" charset="utf-8"></script>
+        <script src="/assets/js/home-scroll.js" charset="utf-8" type="text/javascript"></script>
 
-    {%- include header.html -%}
-  
-    <main class="page-content" aria-label="Content">
-
-      <div class="wrapper">
-        
-        {{ content }}
-
-      </div> 
-      
-    </main>
-
-    {%- include footer.html -%}
-
-  </body>
+    </body>
 
 </html>
