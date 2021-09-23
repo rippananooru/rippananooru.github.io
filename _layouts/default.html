@@ -24,6 +24,10 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" charset="utf-8"></script>
         <script src="/assets/js/home-scroll.js" charset="utf-8" type="text/javascript"></script>
 
+        {%- if jekyll.environment == 'production' -%}
+        {%- include cloudflare-analytics.html -%}
+        {%- endif -%}
+
     </body>
 
 </html>
